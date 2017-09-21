@@ -23,8 +23,8 @@ public void setUp() throws MalformedURLException{
 	capabilities.setCapability("deviceName","3bd468ea");
 	capabilities.setCapability("platformName","Android");
 	
-	capabilities.setCapability("app-package", "com.google.android.calculator-1");
-	capabilities.setCapability("app-activity", "com.android.calculator2.CalculatorGoogle");
+	capabilities.setCapability("appPackage", "com.google.android.calculator");
+	capabilities.setCapability("appActivity", "com.android.calculator2.CalculatorGoogle");
  
    
   // capabilities.setCapability("appPackage", "com.android.calculator2");
